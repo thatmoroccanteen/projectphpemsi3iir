@@ -17,6 +17,6 @@ if(!isset($_SESSION['user'])){
 <a href="/gestion_materiel/index.php">Accueil</a> |
 <a href="/gestion_materiel/employes/index.php">Employés</a> |
 <a href="/gestion_materiel/materiels/index.php">Matériels</a> |
-<a href="/gestion_materiel/auth/logout.php">Déconnexion</a>
+<a href="/gestion_materiel/auth/logout.php" class="logout">Déconnexion</a>
 </nav>
 <hr>

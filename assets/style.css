@@ -1,7 +1,15 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
     background-color: #f4f4f4;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 nav {
     background-color: #333;
@@ -69,4 +77,19 @@ a:hover {
 }
 .error {
     color: red;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+
 }
